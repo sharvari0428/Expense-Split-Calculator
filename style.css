@@ -1,1 +1,39 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    margin:0;
+    padding-top:50px;
+}
 
+.card{
+    background:#1e293b;
+    width:80%;
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+input{
+    padding:12px;
+    width:80%;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    background:#38bdf8;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
